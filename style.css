@@ -16,10 +16,8 @@ a {
 
 
 main img {
-
+    border-radius: 12px;
     max-width: 40%;
-
-
 }
 
 ul {
@@ -65,7 +63,10 @@ header {
     color: white;
     position: relative;
     overflow: hidden;
+    
 }
+
+
 
 .loja-texto {
     padding: 10px 0px 0px 13px;
@@ -229,6 +230,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.redes-sociais li{
+    display: flex;
+    text-align: center;
 }
 
 .menu-produtos:hover .produtos {
@@ -418,7 +424,7 @@ justify-content: center;
 
 
 .loja-item {
-  padding: 0.6em 2em;
+  padding: 7px;
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
